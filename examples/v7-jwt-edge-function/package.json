@@ -1,0 +1,24 @@
+{
+  "name": "edgio-v7-jwt-edge-function-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@edgio/cli": "^7.12.12",
+    "@edgio/core": "^7.12.12",
+    "@edgio/prefetch": "^7.12.12"
+  },
+  "dependencies": {
+    "jsrsasign": "^11.1.0"
+  },
+  "repository": "git@github.com:edgio-docs/edgio-v7-jwt-edge-function-example.git"
+}
